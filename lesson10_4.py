@@ -1,6 +1,9 @@
 import random
 import pyinputplus as pyip
 
+
+
+
 def getStudents() -> list[list]:
     with open('names.txt',mode='r',encoding='utf-8') as file:
         names:str = file.read()
